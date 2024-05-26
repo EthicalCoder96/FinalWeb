@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CGPA Calculator</h1>
+        <div id="semestersContainer"></div>
+        <div class="input-group">
+            <label for="semNumber">Number of Semesters:</label>
+            <input type="number" id="semNumber" min="1" max="8">
+            <button onclick="initializeSemesters()">Initialize Semesters</button>
+        </div>
+        <div id="resultsContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
